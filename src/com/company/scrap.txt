@@ -1,0 +1,16 @@
+
+
+        data_list.append(str(self.patient_data.id_number))   #client expects string type
+        data_list.append(str(self.patient_data.first_name))
+        data_list.append(str(self.patient_data.middle_name))
+        data_list.append(str(self.patient_data.last_name))
+        data_list.append(str(self.patient_data.triage))
+        data_list.append(str(self.patient_data.sex))
+        data_list.append(str(self.patient_data.age))
+        data_list.append(str(self.patient_data.date_admission))
+        data_list.append(str(self.patient_data.nationality))
+        data_list.append(str(self.patient_data.religion))
+
+
+
+private JLabel patientFName , patientMName, patientLName, patientPrefName, healthcareID, birthday, address, sex, nationality, religion,firstLanguage, married, symptoms, civilStatus, datefDischarge, timeOfDischarge, attendingDoctor;
